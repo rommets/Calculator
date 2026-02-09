@@ -1,3 +1,4 @@
+````markdown
 # Python Scientific Calculator (Tkinter)
 
 This project implements a **graphical scientific calculator** using **Python** and **Tkinter**, supporting both basic arithmetic and advanced mathematical operations. The calculator features a clean GUI, keyboard input support, and a secure expression evaluation mechanism.
@@ -50,3 +51,58 @@ It is suitable as a **computer workshop**, **introductory software engineering**
 
 ```bash
 python calculator.py
+````
+
+The calculator window will open immediately.
+
+---
+
+## Keyboard Shortcuts
+
+| Key         | Action                |
+| ----------- | --------------------- |
+| `Enter`     | Evaluate expression   |
+| `Backspace` | Delete last character |
+| `Esc`       | Clear                 |
+| `s`         | `sin(`                |
+| `c`         | `cos(`                |
+| `t`         | `tan(`                |
+| `o`         | `cot(`                |
+| `l`         | `Log(`                |
+
+---
+
+## Example
+
+Expression:
+
+```
+sin(30) + √(16) + 2^3
+```
+
+Output:
+
+```
+8.5
+```
+
+---
+
+## Implementation Highlights
+
+* **Sanitized Expressions:**
+  User-friendly symbols (`√`, `x²`, `x^y`) are internally converted to valid Python expressions.
+* **Degree-Based Trigonometry:**
+  All trigonometric functions operate in degrees for user convenience.
+* **Minimal Dependencies:**
+  Uses only Python standard libraries (`tkinter`, `math`).
+
+---
+
+## Future Extensions
+
+* Add calculation history panel
+* Support radians/degrees toggle
+* Dark mode UI
+* Scientific notation and factorial support
+* Package as a standalone executable
