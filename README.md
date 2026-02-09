@@ -1,5 +1,4 @@
-````markdown
-# Python Scientific Calculator (Tkinter)
+# Python Scientific Calculator
 
 This project implements a **graphical scientific calculator** using **Python** and **Tkinter**, supporting both basic arithmetic and advanced mathematical operations. The calculator features a clean GUI, keyboard input support, and a secure expression evaluation mechanism.
 
@@ -51,7 +50,7 @@ It is suitable as a **computer workshop**, **introductory software engineering**
 
 ```bash
 python calculator.py
-````
+```
 
 The calculator window will open immediately.
 
@@ -105,4 +104,3 @@ Output:
 * Support radians/degrees toggle
 * Dark mode UI
 * Scientific notation and factorial support
-* Package as a standalone executable
